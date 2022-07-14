@@ -1,7 +1,7 @@
 function Converter() {
-    var idadeGato = document.getElementById('valor').value;
-    var idadeHumano = 0;
-    var x = 0;
+    let idadeGato = document.getElementById('valor').value;
+    let idadeHumano = 0;
+    let x = 0;
 
     if (idadeGato == 1) {
         idadeHumano = idadeGato * 15;
